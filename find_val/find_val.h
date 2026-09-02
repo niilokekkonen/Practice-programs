@@ -1,0 +1,1 @@
+bool find_min_max(const int *arr, const int arr_len, int *pmin, int *pmax);
