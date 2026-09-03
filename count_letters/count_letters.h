@@ -1,0 +1,1 @@
+bool count_letters(const char *str, int *ltr_cnt);
