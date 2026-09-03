@@ -29,6 +29,8 @@ int main(void)
 // Doesn't remove whitespaces...
 bool count_letters(const char *str, int *ltr_cnt) 
 {
+    // Checking for NULL pointers
+    // Undefined behaviour...
     if (str != NULL && ltr_cnt != NULL) 
     {    
     const char *start = str;
