@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 #include "control_reg.h"
-
+// Defining constant flags [CAN BE ALTERED]
 #define FLAG_POWER (1 << 0) // Bit 0 -> 0000 0001
 #define FLAG_READY (1 << 1) // Bit 1 -> 0000 0010
 #define FLAG_ERROR (1 << 2) // Bit 2 -> 0000 0100
