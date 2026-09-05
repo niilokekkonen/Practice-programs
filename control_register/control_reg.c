@@ -20,7 +20,7 @@ int main(void)
 {
     uint8_t reg = 15; // Register
     uint8_t *preg = &reg;
-    // Test codes
+    // Test prints
     printf("register before set: %02x\n", reg);
     bool res = set_flag(preg, FLAG_BLINK);
     printf("register before clearing: %02x\n", reg);
